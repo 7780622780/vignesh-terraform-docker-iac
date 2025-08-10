@@ -7,3 +7,12 @@ override.tf
 override.tf.json
 terraform.tfvars
 *.tfvars
+
+# Terraform state & plan files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+tfplan
+
+# Terraform working directory
+.terraform/
